@@ -392,7 +392,7 @@ button:focus {
   color: var(--background);
   margin-top: 20px;
 }
-.card-legend {    
+.card-legend {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -425,7 +425,7 @@ button:focus {
   justify-content: center;
   align-content: center;
 }
-.filter-grid {  
+.filter-grid {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -452,13 +452,13 @@ button:focus {
 
 /*Portfolio Overlay */
 .cards-overlay {
-position: relative;
-overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .cards-overlay:before {
   display: inline-block;
-  content: "Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов."; 
+  content: "Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -471,7 +471,7 @@ overflow: hidden;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  color:var(--white);
+  color: var(--white);
   padding: 63px 24px;
 }
 .cards:hover .cards-overlay::before {
@@ -508,7 +508,7 @@ overflow: hidden;
   border-style: solid;
   color: #ececec;
 }
-.card-container-info {  
+.card-container-info {
   padding-right: 24px;
   padding-left: 24px;
   padding-bottom: 20px;
@@ -735,11 +735,13 @@ input {
 }
 
 .contact-form {
-  width: 440px;
-  min-height: 200px;
+  width: 448px;
+  min-height: 40px;
   box-shadow: 0 6px 4px 0 #ccc;
   margin: 0 auto;
   padding: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .contact-form__input {
@@ -783,7 +785,7 @@ input {
 
 .contact-form__box-title {
   margin-bottom: 16px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
