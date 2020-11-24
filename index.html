@@ -515,20 +515,32 @@
                                 class="modal-button" data-modal-close><svg
                                     class="icon-krest" width="11" height="11">
                                     <use
-                                        href="./sprite.svg#icon-Vector-1"></use>
+                                        href="./sprite.svg#icon-krest"></use>
                                 </svg></button>
                             <p class="form-title">Оставьте свои данные, мы вам
                                 перезвоним</p>
                             <form action="#" class="contact-form">
                                 <p class="contact-form__box-title">Имя</p>
-                                <input type="text" name="user-name"
+                                <span class="form-container-input-svg"><svg class="form-input-svg" width="18" height="18">
+                                        <use
+                                            href="./sprite.svg#icon-name"></use>
+                                    </svg></span><input type="text"
+                                    name="user-name"
                                     class="contact-form__input"
                                     required>
-                                    <p class="contact-form__box-title">Телефон</p>
+                                <p class="contact-form__box-title">Телефон</p>
+                                <span class="form-container-input-svg"><svg class="form-input-svg" width="18" height="18">
+                                        <use
+                                            href="./sprite.svg#icon-phone-black"></use>
+                                    </svg></span>
                                 <input type="tel" name="user-phone"
                                     class="contact-form__input"
                                     required>
-                                    <p class="contact-form__box-title">Почта</p>
+                                <p class="contact-form__box-title">Почта</p>
+                                <span class="form-container-input-svg"><svg class="form-input-svg" width="18" height="18">
+                                    <use
+                                        href="./sprite.svg#icon-email-black"></use>
+                                </svg></span>
                                 <input type="email" name="user-email"
                                     class="contact-form__input"
                                     required>
@@ -539,7 +551,19 @@
                                         name="user-message"
                                         placeholder="Введите текст"></textarea>
                                 </section>
-
+                                <input type="checkbox" name="user-policy"
+                                    value="user-policy-ok"
+                                    class="modal-form-policy visually-hidden"
+                                    id="policy">
+                                <label for="policy"
+                                    class="contact-form-policy-label">
+                                    <span><svg width="16" height="15">
+                                            <use
+                                                href="./sprite.svg#icon-icon-check-1"></use>
+                                        </svg></span>&nbsp;&nbsp;&nbsp;Соглашаюсь с рассылкой и
+                                    принимаю&nbsp;<a
+                                        href="">Условия договора</a>
+                                </label>
                                 <div class="contact-form__btn-wrapper">
                                     <button type="submit"
                                         class="contact-form__btn">Отправить</button>
